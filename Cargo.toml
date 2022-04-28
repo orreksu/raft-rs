@@ -1,0 +1,15 @@
+[package]
+name = "project-6"
+version = "0.1.0"
+authors = ["Oleksandr Litus <litu.o@northeastern.edu>"]
+edition = "2018"
+
+[[bin]]
+name = "3700kvstore"
+path = "src/main.rs"
+
+[dependencies]
+serde_json = "1.0"
+nix = "0.20.0"
+rand = "0.8.3"
+serde = { version = "1.0", features = ["derive"] }
